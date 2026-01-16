@@ -13,7 +13,11 @@ h1 {
     color: darkblue;
 }
 
-img {
+h2 {
+    font-size: 1.9rem;
+}
+
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -22,5 +26,31 @@ img {
 }
 
 p {
+    padding: 0px;
+}
+
+main {
+    width: 500px;
+}
+
+aside {
+    width: 500px;
+    margin: 10px;
+    border: 2px dotted black;
     padding: 10px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 2px dotted black;
+    width: 550px;
+    text-align: center;
 }
