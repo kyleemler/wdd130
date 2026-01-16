@@ -7,6 +7,7 @@ nav a {
     color: white;
     display: block;
     padding: 20px;
+    width: auto;
 }
 
 h1 {
@@ -30,7 +31,7 @@ p {
 }
 
 main {
-    width: 500px;
+    max-width: 500px;
 }
 
 aside {
