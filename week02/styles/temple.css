@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 2;
+}
+
+header,
+footer {
+    background-color: gray;
+    padding: 50px black;
+    font: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 5px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    background-color: lightblue;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: .9rem;
+}
+
+section p {
+    margin: 5px 30px
+}
+
+ul {
+    margin: 5px 30px;
+}
+
+footer {
+    font-size: 1.2rem;
+}
