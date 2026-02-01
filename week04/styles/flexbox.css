@@ -8,6 +8,8 @@ body {
     background-color: lightyellow;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .flex-item {
@@ -17,16 +19,19 @@ body {
     padding: 0.5rem;
     background-color: #bbb;
     color: #333;
+
 }
 
 .item1 {
-    min-height: 100px;
+    min-height: 300px;
+    margin-left: 100px;
 }
 
 .item2 {
-    min-height: 200px;
+    min-height: 300px;
 }
 
 .item3 {
     min-height: 300px;
+    margin-right: 100px;
 }
