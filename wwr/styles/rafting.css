@@ -24,7 +24,7 @@
     margin: 0 auto;
     /* styling */
     background-color: var(--secondary-color);
-    color: white;
+    color: black;
 }
 
 .site-header nav {
@@ -47,6 +47,7 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+    font-family: var(--body-font);
 }
 
 h1,
@@ -137,6 +138,7 @@ article {
 
 .adventure {
     border: solid black;
+    margin: 1rem 0 1rem 0;
 }
 
 .adventure-pics {
@@ -160,6 +162,7 @@ figcaption {
 footer {
     display: flex;
     align-items: center;
+    background-color: var(--accent1-color);
 }
 
 footer p {
