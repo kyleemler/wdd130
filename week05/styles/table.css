@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    border: gray 2px solid;
+    letter-spacing: 1px;
+}
+
+thead,
+tfoot {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px gray solid;
+}
+
+td {
+    text-align: center;
+    border: gray solid 1px;
+    padding: 5px;
+}
+
+.row2 {}
