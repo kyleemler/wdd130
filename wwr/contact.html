@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="A Form to provide contact information for White Water Rafting LLC to contact. Available for Questions, Reservations or Suggestions.">
+    <meta name="author" content="Kyle Emler">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us | White Water Rafting LLC</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <img src="images/logo.jpg" alt="logo" width="200">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="info">
+            <h1>White Water Rafting LLC</h1>
+            <p>123 Main River St</p>
+            <p>Kolob, CA</p>
+            <p>1-800-999-9999</p>
+            <p>info@whitewaterraftingllc.com</p>
+        </section>
+        <section class="form">
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5410.351603923443!2d-92.81266414144194!3d35.978282132183956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1770438905104!5m2!1sen!2sus"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <p>Message Purpose</p>
+                <label>
+                    <input type="radio" name="purpose" value="general">
+                    General Inquiry
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="reservation">
+                    Reservation Question
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="suggestion">
+                    Website Suggestion
+                </label>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please Subscribe to the Monthly
+                    Newsletter!</label>
+
+                <input type="submit" value="Get in Touch!">
+            </form>
+        </section>
+        <section class="profiles">
+            <h2>We Are Here to Serve You</h2>
+            <figure>
+                <img src="images/profile-one.jpg" alt="A Photo of the Current General Manager">
+                <figcaption>General Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/profile-two.jpg" alt="A Photo of the Current Sales Manager">
+                <figcaption>Sales Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/profile-three.jpg" alt="A Photo of the Current Operations Manager">
+                <figcaption>Operations Manager</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; | 2026 | Emler Rafting LLC | Kyle Emler
+        </p>
+        <nav class="socialmedia">
+            <a href="">
+                <img src="images/facebook.svg" alt="Facebook Icon" width="50">
+            </a>
+            <a href="">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon" width="50">
+            </a>
+            <a href="">
+                <img src="images/instagram.svg" alt="Instagram Icon" width="50">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

@@ -174,3 +174,13 @@ footer .socialmedia {
     display: flex;
     gap: 10px;
 }
+
+.info {
+    text-align: center;
+}
+
+.map {
+    max-width: 200px;
+}
+
+.form {}
