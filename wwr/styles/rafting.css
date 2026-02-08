@@ -20,7 +20,6 @@
     align-items: center;
     padding: 1rem;
     width: 100%;
-    max-width: 840px;
     margin: 0 auto;
     /* styling */
     background-color: var(--secondary-color);
@@ -36,6 +35,8 @@
 .site-header nav a {
     text-decoration: none;
     font-weight: 600;
+    font-family: var(--body-font);
+    color: var(--primary-color);
 }
 
 .site-header img {
@@ -43,8 +44,7 @@
     height: auto;
 }
 
-main,
-footer {
+main {
     width: 840px;
     margin: 0 auto;
     font-family: var(--body-font);
@@ -150,7 +150,7 @@ article {
 }
 
 .adventure img {
-    max-width: 200px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -163,6 +163,7 @@ footer {
     display: flex;
     align-items: center;
     background-color: var(--accent1-color);
+    width: 100%;
 }
 
 footer p {
@@ -180,7 +181,106 @@ footer .socialmedia {
 }
 
 .map {
-    max-width: 200px;
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    border: 0;
 }
 
-.form {}
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+    width: 840px;
+}
+
+.name-email {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: .1rem;
+    margin: .5rem 0;
+}
+
+.name-email label {
+    text-align: center;
+}
+
+.name-email input {
+    padding: 0.25rem 0.25rem;
+}
+
+.radio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: .25rem 0;
+}
+
+.radio p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .25rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.message {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    margin: .25rem;
+}
+
+.message textarea {
+    min-height: 75px;
+    padding: 0.75rem;
+    resize: vertical;
+}
+
+.checkbox {
+    display: grid;
+    grid-template-columns: .25fr 2fr;
+    gap: .5rem;
+    margin: .5rem 0;
+}
+
+.submit input {
+    width: 100%;
+    padding: .5rem;
+}
+
+.profiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 3rem;
+    text-align: center;
+    border: 2px black solid;
+}
+
+.profiles figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+.profiles h2 {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    margin: .25rem;
+}
+
+.profiles img {
+    width: 200px;
+    height: auto;
+}
