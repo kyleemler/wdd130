@@ -42,7 +42,7 @@
 }
 
 .site-header img {
-    width: 50px;
+    width: 150px;
     height: auto;
 }
 
@@ -333,6 +333,7 @@ figcaption {
     border: black solid;
     width: 100%;
     margin: 2rem;
+    gap: 1rem;
 }
 
 .desc {
@@ -377,4 +378,74 @@ figcaption {
     font-weight: bold;
     text-align: center;
     grid-column: 1 / -1;
+}
+
+.main-form input,
+label {
+    padding: .25rem;
+}
+
+.trips-desc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.trips-desc img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.trips-desc div {
+    background-color: var(--accent2-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.trips-table {
+    margin: 1rem;
+    border: black solid;
+    padding: 10px;
+    background-color: var(--secondary-color);
+}
+
+.trips-table h2 {
+    margin-bottom: 1rem;
+}
+
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trips-table th,
+.trips-table td {
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.trips-table th {
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+.trips-table td {
+    background-color: var(--accent2-color);
+    color: black;
+}
+
+.contact-link {
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.contact-link a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
 }
