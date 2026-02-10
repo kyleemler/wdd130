@@ -13,6 +13,8 @@
     box-sizing: border-box;
 }
 
+/* Header */
+
 .site-header {
     /* positioning */
     display: grid;
@@ -44,6 +46,27 @@
     height: auto;
 }
 
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: var(--accent1-color);
+    width: 100%;
+}
+
+footer p {
+    flex: 1;
+    text-align: center;
+}
+
+footer .socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+/* General */
+
 main {
     width: 840px;
     margin: 0 auto;
@@ -64,6 +87,8 @@ article {
     margin: 0px;
     padding: 5px;
 }
+
+/* About Us Page */
 
 .socialmedia a {
     text-decoration: none;
@@ -159,26 +184,11 @@ figcaption {
 
 }
 
-footer {
-    display: flex;
-    align-items: center;
-    background-color: var(--accent1-color);
-    width: 100%;
-}
-
-footer p {
-    flex: 1;
-    text-align: center;
-}
-
-footer .socialmedia {
-    display: flex;
-    gap: 10px;
-}
-
 .info {
     text-align: center;
 }
+
+/* Contact Us Page */
 
 .map {
     width: 100%;
@@ -283,4 +293,88 @@ footer .socialmedia {
 .profiles img {
     width: 200px;
     height: auto;
+}
+
+/* Home Page */
+.home-hero {
+    position: relative;
+}
+
+.home-hero img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.home-hero h1 {
+    position: absolute;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    font-size: 3rem;
+    color: var(--accent2-color);
+}
+
+.home-hero a {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    background-color: var(--accent1-color);
+    color: black;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-desc {
+    padding: 2px 100px;
+    border: black solid;
+    width: 100%;
+    margin: 2rem;
+}
+
+.desc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 100%;
+}
+
+.desc img {
+    width: 100%;
+}
+
+.main-form form {
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    text-align: center;
+    margin: 1rem auto;
+    width: 100%;
+    gap: .5rem;
+}
+
+.main-form {
+    position: absolute;
+    font-size: 1rem;
+    top: 20%;
+    right: 2rem;
+    width: 400px;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: var(--primary-color) solid 3px;
+    display: grid;
+    gap: .5rem;
+}
+
+.main-form-submit {
+    background-color: var(--accent1-color);
+    color: black;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    grid-column: 1 / -1;
 }
